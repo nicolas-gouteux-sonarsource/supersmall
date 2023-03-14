@@ -3,12 +3,12 @@ plugins {
     id "org.sonarqube" version "3.5.0.2730"
 }
 
-sonarqube {
+sonar {
     properties {
         property "sonar.projectKey", "supersmall"
         property "sonar.host.url", "https://ngx2.eu.ngrok.io/"
-        //property "sonar.plugins.origin", "local"
-        property "sonar.organization", "sonarsource"
+        property "sonar.plugins.origin", "local"
+        property "sonar.organization", "default-organization"
 
         //property "sonar.scm.provider", "git"
         //property "sonar.scm.disabled", "true"
