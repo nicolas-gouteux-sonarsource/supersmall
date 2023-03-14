@@ -7,7 +7,7 @@ sonarqube {
     properties {
         property "sonar.projectKey", "supersmall"
         property "sonar.host.url", "https://ngx2.eu.ngrok.io/"
-        property "sonar.plugins.origin", "local"
+        //property "sonar.plugins.origin", "local"
         property "sonar.organization", "sonarsource"
         //export SONAR_TOKEN=9c70d1ee4ddefd6294a6f6b80a7543cb467bed43
 
