@@ -1,0 +1,34 @@
+plugins {
+    id 'java'
+    id "org.sonarqube" version "3.5.0.2730"
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "supersmall"
+        property "sonar.host.url", "https://ngx2.eu.ngrok.io/"
+        property "sonar.plugins.origin", "local"
+        property "sonar.organization", "sonarsource"
+        //export SONAR_TOKEN=9c70d1ee4ddefd6294a6f6b80a7543cb467bed43
+
+        //property "sonar.scm.provider", "git"
+        //property "sonar.scm.disabled", "true"
+    }
+}
+
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
