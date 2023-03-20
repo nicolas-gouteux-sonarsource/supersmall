@@ -5,10 +5,12 @@ plugins {
 
 sonar {
     properties {
-        property "sonar.projectKey", "supersmall"
+        property "sonar.projectName", "s5"
+        property "sonar.projectKey", "s5"
+        property "user.login", "933b1c4aceb1ddabb8c24d70bfc0c21d919b0b3e"
         property "sonar.host.url", "https://ngx2.eu.ngrok.io/"
-        property "sonar.plugins.origin", "local"
         property "sonar.organization", "default-organization"
+        //property "sonar.plugins.origin", "local"
 
         //property "sonar.scm.provider", "git"
         //property "sonar.scm.disabled", "true"
