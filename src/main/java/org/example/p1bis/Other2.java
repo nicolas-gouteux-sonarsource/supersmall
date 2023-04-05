@@ -1,4 +1,4 @@
-package org.example.p1;
+package org.example.p1bis;
 
 public class Other2 {
   public static void main(String[] args) {
