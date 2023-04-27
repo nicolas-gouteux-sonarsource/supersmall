@@ -5,11 +5,11 @@ plugins {
 
 sonar {
     properties {
-        property "sonar.projectName", "s5"
-        property "sonar.projectKey", "s5"
+        property "sonar.projectName", "s1"
+        property "sonar.projectKey", "s1"
 
         // ngx2 (local)
-        property "sonar.login", "6b0fa557f0accb09fabf3dd4c9596e56b50e76fd"
+        property "sonar.login", "85cbc765f3a65ef555462d42d4c8aef6d35a6493"
         property "sonar.host.url", "https://ngx2.eu.ngrok.io/"
         property "sonar.organization", "default-organization"
         property "sonar.plugins.origin", "local"
@@ -20,8 +20,10 @@ sonar {
 //        property "sonar.host.url", "https://dev.sc-dev.io"
 //        property "sonar.organization", "ngx"
 //
-//        property "sonar.pullrequest.key", "a_branch"
-//        property "sonar.pullrequest.branch", "a_branch"
+
+
+        property "sonar.pullrequest.key", "a_branch"
+        property "sonar.pullrequest.branch", "a_branch"
 
         //property "sonar.scm.provider", "git"
         //property "sonar.scm.disabled", "true"
