@@ -7,26 +7,19 @@ sonar {
     properties {
 //        property "sonar.projectName", "s5"
 //        property "sonar.projectKey", "s5"
-//        property "user.login", "6b0fa557f0accb09fabf3dd4c9596e56b50e76fd"
 //        property "sonar.host.url", "https://ngx2.eu.ngrok.io/"
 //        property "sonar.organization", "default-organization"
 
         property "sonar.projectKey", "s5"
         property "sonar.organization", "ngx"
         property "sonar.host.url", "https://squad-5-core.sc-dev.io"
-        property "sonar.login", "de471f354771ed59f78a2aa2ecc19fa6d4e37bf4"
-//        property "user.login", "de471f354771ed59f78a2aa2ecc19fa6d4e37bf4"
-
+        property "so.lo", "de471f354771ed59f78a2aa2ecc19fa6d4e37bf4"
 
         property "sonar.plugins.origin", "local"
 
-
         // dev
-//        property "sonar.login", "032b80b2bc0ffe6b40e9136631b69ab2dab3bcca"
 //        property "sonar.host.url", "https://dev.sc-dev.io"
 //        property "sonar.organization", "ngx"
-//
-
 
         property "sonar.pullrequest.key", "a_branch"
         property "sonar.pullrequest.branch", "a_branch"
