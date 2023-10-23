@@ -1,7 +1,9 @@
 package org.example.p2;
 
+import java.lang.String;
+
 public class Other3 {
   public static void main(String[] args) {
-    int unusedVariable1113dxxcas = 0;
+    int unvfduBLIsedVariable1113dxxcas = 0;
   }
 }
