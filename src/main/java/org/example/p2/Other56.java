@@ -1,7 +1,7 @@
 package org.example.p2;
 
-public class Other2 {
+public class Other56 {
   public static void main(String[] args) {
-    int unusedzzzVariable1113dcas = 0;
+    int unuszzedVariable1113dcas224 = 0;
   }
 }
