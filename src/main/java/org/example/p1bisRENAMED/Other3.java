@@ -1,4 +1,4 @@
-package org.example.p1bis;
+package org.example.p1bisRENAMED;
 
 public class Other3 {
   public static void main(String[] args) {
