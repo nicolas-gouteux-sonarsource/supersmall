@@ -1,30 +1,18 @@
 plugins {
     id 'java'
-    id "org.sonarqube" version "3.5.0.2730"
+    id "org.sonarqube" version "4.2.0.3129"
 }
 
 sonar {
     properties {
-        property "sonar.projectName", "s5"
-        property "sonar.projectKey", "s5"
+        property "sonar.projectKey", "s3"
+        property "sonar.host.url", "https://ngx2.eu.ngrok.io/"
+        property "sonar.organization", "default-organization"
+        property "sonar.token", "9b889569c4b9782ee4c72f9a9ce9aebbe648a5ab"
+        property "sonar.plugins.origin", "local"
 
-        // ngx2 (local)
-//        property "sonar.login", "6b0fa557f0accb09fabf3dd4c9596e56b50e76fd"
-//        property "sonar.host.url", "https://ngx2.eu.ngrok.io/"
-//        property "sonar.organization", "default-organization"
-//        property "sonar.plugins.origin", "local"
-
-
-        // dev
-        property "sonar.login", "032b80b2bc0ffe6b40e9136631b69ab2dab3bcca"
-        property "sonar.host.url", "https://dev.sc-dev.io"
-        property "sonar.organization", "ngx"
-
-        property "sonar.pullrequest.key", "a_branch"
-        property "sonar.pullrequest.branch", "a_branch"
-
-        //property "sonar.scm.provider", "git"
-        //property "sonar.scm.disabled", "true"
+//        property "sonar.pullrequest.key", "a_branch"
+//        property "sonar.pullrequest.branch", "a_branch"
     }
 }
 
