@@ -5,20 +5,14 @@ plugins {
 
 sonar {
     properties {
-//        property "sonar.projectName", "s5"
-//        property "sonar.projectKey", "s5"
-//        property "sonar.host.url", "https://ngx2.eu.ngrok.io/"
-//        property "sonar.organization", "default-organization"
-
-        property "sonar.projectKey", "s5"
-        property "sonar.organization", "ngx"
-        property "sonar.host.url", "https://squad-5-core.sc-dev.io"
-
-
+        property "sonar.projectKey", "s3"
+        property "sonar.host.url", "https://ngx2.eu.ngrok.io/"
+        property "sonar.organization", "default-organization"
+        property "sonar.token", "9b889569c4b9782ee4c72f9a9ce9aebbe648a5ab"
         property "sonar.plugins.origin", "local"
 
-        //property "sonar.scm.provider", "git"
-        //property "sonar.scm.disabled", "true"
+//        property "sonar.pullrequest.key", "a_branch"
+//        property "sonar.pullrequest.branch", "a_branch"
     }
 }
 
