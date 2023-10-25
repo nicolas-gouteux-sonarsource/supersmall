@@ -11,8 +11,8 @@ sonar {
         property "sonar.token", "9b889569c4b9782ee4c72f9a9ce9aebbe648a5ab"
         property "sonar.plugins.origin", "local"
 
-//        property "sonar.pullrequest.key", "a_branch"
-//        property "sonar.pullrequest.branch", "a_branch"
+        property "sonar.pullrequest.key", "a_branch"
+        property "sonar.pullrequest.branch", "a_branch"
     }
 }
 
