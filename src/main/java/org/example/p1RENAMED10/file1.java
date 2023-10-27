@@ -1,4 +1,4 @@
-package org.example.p1RENAMED0;
+package org.example.p1RENAMED10;
 
 public class file1 {
   public static void main(String[] args) {
