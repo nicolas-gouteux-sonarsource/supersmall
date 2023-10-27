@@ -8,7 +8,6 @@ sonar {
         property "sonar.projectKey", "s3"
         property "sonar.host.url", "https://ngx2.eu.ngrok.io/"
         property "sonar.organization", "default-organization"
-        property "sonar.token", "6f14104df79ec5af031966d8990912ade87c6641"
         property "sonar.plugins.origin", "local"
 
 //        property "sonar.pullrequest.key", "a_branch"
