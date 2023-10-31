@@ -1,4 +1,4 @@
-package org.example.p2;
+package org.example.p3;
 
 public class file3 {
   public static void main(String[] args) {

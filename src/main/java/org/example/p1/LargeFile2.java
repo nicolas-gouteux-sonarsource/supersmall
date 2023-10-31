@@ -1,4 +1,4 @@
-package org.example.p1RENAMED15;
+package org.example.p1;
 
 /** 
 
@@ -6,7 +6,7 @@ package org.example.p1RENAMED15;
 
 
 */
-public class LargeFile3 {
+public class LargeFile2 {
 	public static String s=null;
 
 	public String toString() {
