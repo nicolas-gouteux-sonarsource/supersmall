@@ -1,4 +1,4 @@
-package org.example.p1;
+package org.example.p1_RENAMED_1;
 
 /** 
 
