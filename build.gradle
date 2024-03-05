@@ -6,9 +6,16 @@ plugins {
 sonar {
     properties {
         property "sonar.projectKey", "s3"
-        property "sonar.host.url", "https://ngx2.eu.ngrok.io/"
+
+        //property "sonar.host.url", "https://ngx2.eu.ngrok.io/"
+        property "sonar.host.url", "http://localhost:3000"
         property "sonar.organization", "default-organization"
         property "sonar.plugins.origin", "local"
+
+        // squad-1
+//        property "sonar.organization", "nicolas-gouteux-sonarsource"
+//        property "sonar.host.url", "https://squad-1-core.sc-dev.io"
+//        property "sonar.token", "9be293e0e74e26d414b7b9764dded6c38d3f0fd0"
 
 //        property "sonar.pullrequest.key", "a_branch"
 //        property "sonar.pullrequest.branch", "a_branch"
