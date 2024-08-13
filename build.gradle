@@ -1,18 +1,66 @@
 plugins {
     id 'java'
-    id "org.sonarqube" version "4.2.0.3129"
+    id "org.sonarqube" version "4.4.1.3373"
 }
 
+/*
+on sonarqube
+  -Dsonar.projectKey=s3 \
+  -Dsonar.projectName='s3' \
+  -Dsonar.host.url=http://localhost/sonarqube \
+  -Dsonar.token=sqp_87e5fae6b3acd2b5d9c61484be63fb7293f92ac9
+
+
+*/
 sonar {
     properties {
-        property "sonar.projectKey", "s3"
-        property "sonar.host.url", "https://ngx2.eu.ngrok.io/"
-        property "sonar.organization", "default-organization"
-        property "sonar.token", "9b889569c4b9782ee4c72f9a9ce9aebbe648a5ab"
-        property "sonar.plugins.origin", "local"
+        // COMMON
+//        property "sonar.projectKey", "s3"
+        //property "sonar.plugins.origin", "local"
+
+//        property "sonar.organization", "default-organization"
+//        property "sonar.organization", "sonarsource"
+
+        property "sonar.projectKey", "nicolas-gouteux-sonarsource_supersmall"
+        property "sonar.organization", "nicolas-gouteux-sonarsource"
+        property "sonar.host.url", "https://squad-1-core.sc-dev.io"
+
+        property "sonar.branch.name", "b12"
+        property "sonar.branch.target", "master"
+
+
+        // QUBE
+//        property "sonar.host.url", "http://localhost:9000"
+
+        // SC
+        //property "sonar.host.url", "http://localhost:3000"
+
+
+        //property "sonar.host.url", "https://ngx2.eu.ngrok.io/"
+
+//        property "sonar.host.url", "http://localhost:3000"
+//        property "sonar.organization", "default-organization"
+//        property "sonar.plugins.origin", "local"
+
+        // sonarqube token seems mandatory
+        //property "sonar.token", "sqp_87e5fae6b3acd2b5d9c61484be63fb7293f92ac9"
+
+//        property "sonar.organization", "default-organization"
+//        property "sonar.plugins.origin", "local"
+
+        // squad-1
+//        property "sonar.organization", "nicolas-gouteux-sonarsource"
+//        property "sonar.host.url", "https://squad-1-core.sc-dev.io"
+//        property "sonar.token", "9be293e0e74e26d414b7b9764dded6c38d3f0fd0"
 
 //        property "sonar.pullrequest.key", "a_branch"
 //        property "sonar.pullrequest.branch", "a_branch"
+        //    property "sonar.branch.name", "a_branch"
+        //property "sonar.branch.target", "master"
+
+        property "sonar.scanner.keepReport", "true"
+//        property "", "-agentpath:/Applications/YourKit-Java-Profiler-2023.9.app/Contents/Resources/bin/mac/libyjpagent.dylib=tracing,onexit=memory,alloceach=1000,allocsizelimit=4096"
+        //property "org.gradle.jvmargs", "-agentpath:/Applications/YourKit-Java-Profiler-2023.9.app/Contents/Resources/bin/mac/libyjpagent.dylib=tracing,onexit=memory,alloceach=1000,allocsizelimit=4096"
     }
 }
 
